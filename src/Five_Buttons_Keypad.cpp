@@ -3,23 +3,27 @@
 
 /**************************************************************************************************/
 /* Constructor */
-Five_Buttons_Keypad::Five_Buttons_Keypad( 
-    i_Analogic_Input* an_analogic_input,
-    Event* ev_select_button_pressed,
-    Event* ev_up_button_pressed,
-    Event* ev_down_button_pressed,
-    Event* ev_left_button_pressed,
-    Event* ev_right_button_pressed,
-    ev_Any_Button_Pressed* ev_any_button_pressed  )
+Five_Buttons_Keypad::Five_Buttons_Keypad( void )
 {
-    this->Analog_Pin = an_analogic_input;
+    this->button_pressed = NO_BUTTON;
+}
+/**************************************************************************************************/
+void Five_Buttons_Keypad::Connect_Ports( 
+	i_Analogic_Input* an_analogic_input,
+	Event* ev_select_button_pressed,
+	Event* ev_up_button_pressed,
+	Event* ev_down_button_pressed,
+	Event* ev_left_button_pressed,
+	Event* ev_right_button_pressed,
+	ev_Any_Button_Pressed* ev_any_button_pressed  )
+{
+	this->Analog_Pin = an_analogic_input;
     this->Select_Button_Pressed = ev_select_button_pressed;
     this->Up_Button_Pressed = ev_up_button_pressed;
     this->Down_Button_Pressed = ev_down_button_pressed;
     this->Left_Button_Pressed = ev_left_button_pressed;
     this->Right_Button_Pressed = ev_right_button_pressed;
     this->Any_Button_Pressed = ev_any_button_pressed;
-    this->button_pressed = NO_BUTTON;
 }
 /**************************************************************************************************/
 
@@ -41,23 +45,23 @@ void Five_Buttons_Keypad::Cyclic(void)
 	{
 		current_button_pressed = NO_BUTTON;
 	}
-	else if( pin_voltage <= 1000 && pin_voltage >800 )
+	else if( pin_voltage <= 1000 && pin_voltage >650 )
 	{
 		current_button_pressed = SELECT_BUTTON;
 	}
-	else if( pin_voltage <= 800 && pin_voltage >600 )
+	else if( pin_voltage <= 650 && pin_voltage >450 )
 	{
 		current_button_pressed = LEFT_BUTTON;
 	}
-	else if( pin_voltage <= 600 && pin_voltage >400 )
+	else if( pin_voltage <= 450 && pin_voltage >250 )
 	{
 		current_button_pressed = DOWN_BUTTON;
 	}
-	else if( pin_voltage <= 400 && pin_voltage >200 )
+	else if( pin_voltage <= 250 && pin_voltage >50 )
 	{
 		current_button_pressed = UP_BUTTON;
 	}
-	else if( pin_voltage <= 200 )
+	else if( pin_voltage <= 50 )
 	{
 		current_button_pressed = RIGHT_BUTTON;
 	}

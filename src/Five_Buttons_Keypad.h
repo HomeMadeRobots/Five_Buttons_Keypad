@@ -22,8 +22,9 @@ class Five_Buttons_Keypad {
 public :
     /*--------------------------------------------------------------------------------------------*/
     /* Constructor */
-	Five_Buttons_Keypad( void ) {}
-    Five_Buttons_Keypad( 
+	Five_Buttons_Keypad( void );
+	
+    void Connect_Ports( 
 		i_Analogic_Input* an_analogic_input,
 		Event* ev_select_button_pressed,
 		Event* ev_up_button_pressed,
