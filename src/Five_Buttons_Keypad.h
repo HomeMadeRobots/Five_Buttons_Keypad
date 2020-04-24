@@ -2,84 +2,52 @@
 #define FIVE_BUTTONS_KEYPAD_H
 
 
+/*============================================================================*/
+/* Inclusions */
+/*============================================================================*/
 /* Attributes */
-#include "E_BUTTON_ID.h"
+#include "E_Button_Id.h"
 
 
-/* Realized interfaces */
+/* Required interfaces */
+#include "Analogic_Input.h"
 
 
-/* Needed interfaces */
-#include "i_Analogic_Input.h"
+/* Sent events */
+#include "Any_Button_Pressed.h"
+#include "Button_Pressed.h"
 
 
-/* Events */
-#include "Event.h"
-#include "ev_Any_Button_Pressed.h"
+/*============================================================================*/
+/* Component_Type */
+/*============================================================================*/
+typedef struct {
 
+    /* Required interfaces */
+    const Analogic_Input* Analog_Pin;
 
-class Five_Buttons_Keypad {
-public :
-    /*--------------------------------------------------------------------------------------------*/
-    /* Constructor */
-	Five_Buttons_Keypad( void );
-	
-    void Connect_Ports( 
-		i_Analogic_Input* an_analogic_input,
-		Event* ev_select_button_pressed,
-		Event* ev_up_button_pressed,
-		Event* ev_down_button_pressed,
-		Event* ev_left_button_pressed,
-		Event* ev_right_button_pressed,
-		ev_Any_Button_Pressed* ev_any_button_pressed  );
-
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Component_Type_Operations */
-    void Cyclic(void);
-
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Event reception points accessors */
-
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Prodided port accessors */
-
-private :
-    typedef enum KEYPAD_STATE { KEYPAD_PRESSED, KEYPAD_RELEASED } KEYPAD_STATE;
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private attributes */
-    E_BUTTON_ID button_pressed;
-
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Private methods */
-
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Requirer_Ports */
-    i_Analogic_Input* Analog_Pin;
-
-
-    /*--------------------------------------------------------------------------------------------*/
-    /* Provider ports */
-
-
-    /*--------------------------------------------------------------------------------------------*/
     /* Sent events */
-    Event* Select_Button_Pressed;
-    Event* Up_Button_Pressed;
-    Event* Down_Button_Pressed;
-    Event* Left_Button_Pressed;
-    Event* Right_Button_Pressed;
-    ev_Any_Button_Pressed* Any_Button_Pressed;
+    Button_Pressed Select_Button_Pressed;
+    Button_Pressed Up_Button_Pressed;
+    Button_Pressed Down_Button_Pressed;
+    Button_Pressed Left_Button_Pressed;
+    Button_Pressed Right_Button_Pressed;
+    Any_Button_Pressed Any_Button_Pressed;
+
+    /* Configuration_Parameters */
+    T_Voltage No_Button_Threshold;
+    T_Voltage Select_Button_Threshold;
+    T_Voltage Left_Button_Threshold;
+    T_Voltage Down_Button_Threshold;
+    T_Voltage Up_Button_Threshold;
+    
+} Five_Buttons_Keypad;
 
 
-    /*--------------------------------------------------------------------------------------------*/
-    /* Received events */
+/*============================================================================*/
+/* Component_Operations */
+/*============================================================================*/
+void Five_Buttons_Keypad__Cyclic( const Five_Buttons_Keypad* Me );
 
-};
 
 #endif
