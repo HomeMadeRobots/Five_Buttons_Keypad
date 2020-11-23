@@ -17,18 +17,18 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes</_hsubsystem>
-							<_hname type="a">PSWA_Package</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Software_Package</_hname>
 							<_hid type="a">GUID afb0e42d-a399-4819-bb39-46f0fd0f0fbf</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::12:35:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:35:13</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:16</_modifiedTime>
 			<_lastID type="a">5</_lastID>
-			<weakCGTime type="a">4.24.2020::12:35:13</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:50:16</weakCGTime>
 			<strongCGTime type="a">11.3.2019::9:18:18</strongCGTime>
 			<_defaultComposite type="s">GUID 9ba2f523-5941-493f-b446-57d9b45f9cb5</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -236,8 +236,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:35:13</_modifiedTime>
-			<_lastModifiedTime type="a">4.24.2020::12:35:13</_lastModifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:50:23</_modifiedTime>
+			<_lastModifiedTime type="a">11.23.2020::15:50:23</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -1748,7 +1748,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::12:32:56</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:23</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -1770,9 +1770,9 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 </_textRTF>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">4.24.2020::12:32:56</_modifiedTime>
+			<_modifiedTime type="a">11.23.2020::15:50:23</_modifiedTime>
 			<_lastID type="a">11</_lastID>
-			<weakCGTime type="a">4.24.2020::12:32:56</weakCGTime>
+			<weakCGTime type="a">11.23.2020::15:50:23</weakCGTime>
 			<strongCGTime type="a">11.3.2019::9:17:55</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -2385,7 +2385,7 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 							<_hm2Class type="a">IStereotype</_hm2Class>
 							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
 							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type::Operations</_hsubsystem>
-							<_hname type="a">Component_Operation</_hname>
+							<_hname type="a">OS_Operation</_hname>
 							<_hid type="a">GUID 03e6f281-8593-48b0-a435-0fc8687783f6</_hid>
 						</IHandle>
 					
@@ -2426,16 +2426,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::12:32:43</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:32:43</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:20</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2450,7 +2450,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID ed67dd5e-9ba0-47bc-ad1f-91901b8a71dd</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ed67dd5e-9ba0-47bc-ad1f-91901b8a71dd</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:20</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:20</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID b40528de-6122-4071-a580-cd9de576a230</_id>
 			<_myState type="a">8192</_myState>
@@ -2461,16 +2470,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::12:32:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:32:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:21</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2485,7 +2494,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID a7b926e2-c476-4769-8e3b-335690179236</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID a7b926e2-c476-4769-8e3b-335690179236</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:21</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:21</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID d59bb4b2-1143-45f4-afe6-2f3868c32404</_id>
 			<_myState type="a">8192</_myState>
@@ -2496,16 +2514,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::12:32:35</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:32:35</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:18</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2520,7 +2538,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID a93e31b2-e289-4ae3-9f37-c378fefd6d12</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID a93e31b2-e289-4ae3-9f37-c378fefd6d12</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:18</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID 7fe2e67b-6048-448f-98b5-d86c6152f237</_id>
 			<_myState type="a">8192</_myState>
@@ -2531,16 +2558,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::12:32:28</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:32:28</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:16</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2555,7 +2582,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 5847d8f6-07d9-4390-b7c7-fe5b65e955ac</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 5847d8f6-07d9-4390-b7c7-fe5b65e955ac</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:16</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IAttribute type="e">
 			<_id type="a">GUID 4e12f4f7-598c-4898-8ce9-612906475229</_id>
 			<_myState type="a">8192</_myState>
@@ -2566,16 +2602,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Physical_Software_Architecture_Metamodel.sbsx</_hfilename>
-							<_hsubsystem type="a">Physical_Software_Architecture_Metamodel::Stereotypes::Component_Type</_hsubsystem>
-							<_hname type="a">Configuration_Attribute</_hname>
+							<_hfilename type="a">.\..\..\..\..\..\Software_Model_Toolset\Rhapsody_Profiles\Project_Metamodel.sbsx</_hfilename>
+							<_hsubsystem type="a">Project_Metamodel::Common_Stereotypes</_hsubsystem>
+							<_hname type="a">Configuration_Parameter</_hname>
 							<_hid type="a">GUID c7a97ee0-e497-4c57-aaf1-4aefdce59a69</_hid>
 						</IHandle>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">4.24.2020::12:32:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">4.24.2020::12:32:56</_modifiedTime>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:23</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2590,7 +2626,16 @@ It can be used for the LCD Keypad Shield For \ulwave Arduino\ulnone  (DFR0009).\
 			<_static type="a">0</_static>
 			<_isReferenceAttr type="a">0</_isReferenceAttr>
 			<_isConstant type="a">0</_isConstant>
+			<AggregatesList type="e">
+				<value>GUID 6324e498-aede-4b21-b5e3-15caf6529c44</value>
+			</AggregatesList>
 		</IAttribute>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 6324e498-aede-4b21-b5e3-15caf6529c44</_id>
+			<_modifiedTimeWeak type="a">11.23.2020::15:50:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.23.2020::15:50:23</_modifiedTime>
+			<_value type="a">0</_value>
+		</ILiteralSpecification>
 		<IClass type="e">
 			<_id type="a">GUID f94069c7-267e-4bbb-9ac8-c0db7ec2d349</_id>
 			<_myState type="a">8192</_myState>
